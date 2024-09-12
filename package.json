@@ -1,19 +1,25 @@
 {
   "name": "suridev-icons",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A Icon library for react apps",
+  "author": "Suresh Bairwa",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env NODE_ENV=production rimraf dist && babel src/Icons --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +40,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "cross-env": "^7.0.3",
+    "rimraf": "^6.0.1"
   }
 }
