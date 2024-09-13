@@ -8,10 +8,14 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 // import Toparrowicon from './svg icons/Toparrow.svg'
 
-const Toparrow = () => {
+const Toparrow = _ref => {
+  let {
+    height = "24",
+    width = "24"
+  } = _ref;
   return /*#__PURE__*/_react.default.createElement("svg", {
-    width: "24",
-    height: "24",
+    height: height,
+    width: width,
     viewBox: "0 0 24 24",
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
