@@ -4,13 +4,17 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+require("core-js/modules/es.parse-float.js");
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
-const Toparrow = _ref => {
+const LeftArrow = _ref => {
   let {
     height = "24",
     width = "24"
   } = _ref;
+  const numericHeight = parseFloat(height);
+  const numericWidth = parseFloat(width);
+  const transformOrigin = "".concat(numericWidth / 2, "px ").concat(numericHeight / 2, "px");
   return /*#__PURE__*/_react.default.createElement("svg", {
     height: height,
     width: width,
@@ -18,8 +22,8 @@ const Toparrow = _ref => {
     fill: "none",
     xmlns: "http://www.w3.org/2000/svg",
     style: {
-      transform: 'rotate(0deg)',
-      transformOrigin: '12px 12px'
+      transform: 'rotate(270deg)',
+      transformOrigin: transformOrigin
     }
   }, /*#__PURE__*/_react.default.createElement("path", {
     d: "M12 5V19",
@@ -35,4 +39,4 @@ const Toparrow = _ref => {
     "stroke-linejoin": "round"
   }));
 };
-var _default = exports.default = Toparrow;
+var _default = exports.default = LeftArrow;
