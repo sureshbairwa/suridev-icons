@@ -17,6 +17,10 @@
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sureshbairwa/suridev-icons.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "cross-env NODE_ENV=production rimraf dist && babel src/Icons --out-dir dist --copy-files",
@@ -47,5 +51,6 @@
     "@babel/preset-env": "^7.25.4",
     "cross-env": "^7.0.3",
     "rimraf": "^6.0.1"
-  }
+  },
+  "license": "MIT"
 }

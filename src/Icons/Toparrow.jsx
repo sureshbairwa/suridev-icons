@@ -1,9 +1,9 @@
 import React from 'react'
 // import Toparrowicon from './svg icons/Toparrow.svg'
 
-const Toparrow = () => {
+const Toparrow = ({height="24" ,width="24"}) => {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'rotate(0deg)', transformOrigin: '12px 12px' }} >
+    <svg  height={height} width={width} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ transform: 'rotate(0deg)', transformOrigin: '12px 12px' }} >
  
   <path d="M12 5V19" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
   

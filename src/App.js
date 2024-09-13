@@ -6,7 +6,7 @@ function App() {
     <div className="App">
      
 
-     <Toparrow/>
+     <Toparrow height="50" width="50"/>
     </div>
   );
 }
