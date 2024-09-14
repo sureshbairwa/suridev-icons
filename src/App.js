@@ -1,6 +1,8 @@
 
-import { Toparrow,BottomArrow,LeftArrow,RightArrow ,Location} from "./Icons/index";
+import { Toparrow,BottomArrow,LeftArrow,RightArrow ,Location,Checkmark} from "./Icons/index";
 
+import {Close, Close2, Close3, Delete, Downarrow, Heart, Home, Leftarrow2, Lock, Menu, 
+  Minus, Plus, Profile, RightArrow2, Search, Trash, Unlock, Uparrow} from "./Icons/index";
 
 
 
@@ -11,11 +13,15 @@ function App() {
 
     
      <Toparrow height="100" width="100"/>
-     <BottomArrow/>
+     {/* <BottomArrow/>
      <LeftArrow/>
      <RightArrow />
      <Location/>
-     <Location height="500" width="500"/>
+     
+     <Checkmark/>
+     <Close /> <Close2 /> <Close3 /> <Delete /> <Downarrow /> <Heart /> 
+<Home /> <Leftarrow2 /> <Lock /> <Menu /> <Minus /> <Plus /> <Profile /> 
+<RightArrow2 /> <Search /> <Trash /> <Unlock /> <Uparrow /> */}
 
     
      

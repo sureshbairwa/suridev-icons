@@ -5,6 +5,30 @@ import LeftArrowicon from './svg icons/LeftArrow.svg';
 import RightArrowicon from './svg icons/RightArrow.svg';
 import BottomArrowicon from './svg icons/BottomArrow.svg';
 import locationsvg from './svg icons/location.svg';
+import Checkmarksvg from './svg icons/Checkmark.svg';
+import Closesvg from './svg icons/close.svg';
+import Clsoe2svg from './svg icons/close2.svg';
+import Close3svg from './svg icons/Close3.svg';
+import deletesvg from './svg icons/delete.svg';
+
+import Downarrowsvg from './svg icons/Downarrow.svg';
+import Heartsvg from './svg icons/Heart.svg';
+import Homesvg from './svg icons/Home.svg';
+import Leftarrow2svg from './svg icons/Leftarrow2.svg';
+import Locksvg from './svg icons/Lock.svg';
+import Menusvg from './svg icons/Menu.svg';
+import Minussvg from './svg icons/Minus.svg';
+
+import Plussvg from './svg icons/Plus.svg';
+import Profilesvg from './svg icons/Profile.svg';
+import RightArrow2svg from './svg icons/Rightarrow2.svg';
+import Searchsvg from './svg icons/Search.svg';
+import Trashsvg from './svg icons/Trash.svg';
+import Unlocksvg from './svg icons/Unlock.svg';
+import Uparrowsvg from './svg icons/Uparrow.svg';
+
+
+
 
 const Toparrow = (props) => {
     return <IconComponent SvgComponent={({ height, width }) => <img src={Toparrowicon} alt="Toparrow" height={height} width={width} />} {...props} />;
@@ -26,4 +50,210 @@ const Location = (props) => {
     return <IconComponent SvgComponent={({ height, width }) => <img src={locationsvg} alt="Location" height={height} width={width} />} {...props} />;
 };
 
-export { Toparrow, LeftArrow, RightArrow, BottomArrow, Location };
+
+const Checkmark = (props) => {
+    return <IconComponent SvgComponent={({ height, width }) => <img src={Checkmarksvg} alt="Location" height={height} width={width} />} {...props} />;
+};
+
+
+const Close = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Closesvg} alt="Close" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Close2 = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Clsoe2svg} alt="Close2" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Close3 = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Close3svg} alt="Close3" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Delete = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={deletesvg} alt="Delete" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Downarrow = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Downarrowsvg} alt="Downarrow" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Heart = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Heartsvg} alt="Heart" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Home = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Homesvg} alt="Home" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Leftarrow2 = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Leftarrow2svg} alt="Leftarrow2" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Lock = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Locksvg} alt="Lock" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Menu = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Menusvg} alt="Menu" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Minus = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Minussvg} alt="Minus" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Plus = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Plussvg} alt="Plus" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Profile = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Profilesvg} alt="Profile" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const RightArrow2 = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={RightArrow2svg} alt="RightArrow2" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Search = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Searchsvg} alt="Search" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Trash = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Trashsvg} alt="Trash" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Unlock = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Unlocksvg} alt="Unlock" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+const Uparrow = (props) => {
+    return (
+        <IconComponent 
+            SvgComponent={({ height, width }) => (
+                <img src={Uparrowsvg} alt="Uparrow" height={height} width={width} />
+            )}
+            {...props}
+        />
+    );
+};
+
+
+export { Toparrow, LeftArrow, RightArrow, BottomArrow, Location ,Checkmark,Close, Close2, Close3, Delete, Downarrow, Heart, Home, Leftarrow2, Lock, Menu, 
+    Minus, Plus, Profile, RightArrow2, Search, Trash, Unlock, Uparrow};
