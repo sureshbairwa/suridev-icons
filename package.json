@@ -1,6 +1,6 @@
 {
   "name": "suridev-icons",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "A Icon library for react apps",
   "author": "Suresh Bairwa",
   "private": false,
@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "core-js": "^3.6.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",

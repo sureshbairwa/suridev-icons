@@ -10,12 +10,12 @@ function App() {
      
 
     
-     <Toparrow/>
+     <Toparrow height="100" width="100"/>
      <BottomArrow/>
      <LeftArrow/>
      <RightArrow />
      <Location/>
-     <Location height="100" width="100"/>
+     <Location height="500" width="500"/>
 
     
      

@@ -1,39 +1,29 @@
 import React from 'react';
-import IcomComponent from './IconComponent'; 
-import {ReactComponent as Toparrowicon} from './svg icons/Toparrow.svg'
-import {ReactComponent as LeftArrowicon} from './svg icons/LeftArrow.svg'
-import {ReactComponent as RightArrowicon} from './svg icons/RightArrow.svg'
-import {ReactComponent as BottomArrowicon} from './svg icons/BottomArrow.svg'
-import {ReactComponent as locationsvg} from './svg icons/location.svg'
-
+import IconComponent from './IconComponent'; // Fixed from 'IcomComponent' to 'IconComponent'
+import Toparrowicon from './svg icons/Toparrow.svg';
+import LeftArrowicon from './svg icons/LeftArrow.svg';
+import RightArrowicon from './svg icons/RightArrow.svg';
+import BottomArrowicon from './svg icons/BottomArrow.svg';
+import locationsvg from './svg icons/location.svg';
 
 const Toparrow = (props) => {
-    return <IcomComponent SvgComponent={Toparrowicon} {...props} />;
-  };
-
-
+    return <IconComponent SvgComponent={({ height, width }) => <img src={Toparrowicon} alt="Toparrow" height={height} width={width} />} {...props} />;
+};
 
 const LeftArrow = (props) => {
-    return <IcomComponent SvgComponent={LeftArrowicon} {...props} />;
-  };
-
-  
+    return <IconComponent SvgComponent={({ height, width }) => <img src={LeftArrowicon} alt="LeftArrow" height={height} width={width} />} {...props} />;
+};
 
 const RightArrow = (props) => {
-    return <IcomComponent SvgComponent={RightArrowicon} {...props} />;
-  };
+    return <IconComponent SvgComponent={({ height, width }) => <img src={RightArrowicon} alt="RightArrow" height={height} width={width} />} {...props} />;
+};
 
 const BottomArrow = (props) => {
-    return <IcomComponent SvgComponent={BottomArrowicon} {...props} />;
-  };
+    return <IconComponent SvgComponent={({ height, width }) => <img src={BottomArrowicon} alt="BottomArrow" height={height} width={width} />} {...props} />;
+};
 
-const Location = (props) =>{
-  return <IcomComponent SvgComponent={locationsvg} {...props} />
-}
+const Location = (props) => {
+    return <IconComponent SvgComponent={({ height, width }) => <img src={locationsvg} alt="Location" height={height} width={width} />} {...props} />;
+};
 
-
-
-
-  
-  export {Toparrow,LeftArrow,RightArrow,BottomArrow,Location};
-
+export { Toparrow, LeftArrow, RightArrow, BottomArrow, Location };
