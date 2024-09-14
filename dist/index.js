@@ -6,36 +6,31 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "BottomArrow", {
   enumerable: true,
   get: function get() {
-    return _BottomArrow.default;
+    return _IconBundle.BottomArrow;
   }
 });
 Object.defineProperty(exports, "LeftArrow", {
   enumerable: true,
   get: function get() {
-    return _LeftArrow.default;
+    return _IconBundle.LeftArrow;
+  }
+});
+Object.defineProperty(exports, "Location", {
+  enumerable: true,
+  get: function get() {
+    return _IconBundle.Location;
   }
 });
 Object.defineProperty(exports, "RightArrow", {
   enumerable: true,
   get: function get() {
-    return _RightArrow.default;
-  }
-});
-Object.defineProperty(exports, "RotateArrow", {
-  enumerable: true,
-  get: function get() {
-    return _RotateArrow.default;
+    return _IconBundle.RightArrow;
   }
 });
 Object.defineProperty(exports, "Toparrow", {
   enumerable: true,
   get: function get() {
-    return _Toparrow.default;
+    return _IconBundle.Toparrow;
   }
 });
-var _Toparrow = _interopRequireDefault(require("./Toparrow"));
-var _BottomArrow = _interopRequireDefault(require("./BottomArrow"));
-var _LeftArrow = _interopRequireDefault(require("./LeftArrow"));
-var _RightArrow = _interopRequireDefault(require("./RightArrow"));
-var _RotateArrow = _interopRequireDefault(require("./RotateArrow"));
-function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
+var _IconBundle = require("./IconBundle");

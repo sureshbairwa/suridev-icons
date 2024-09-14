@@ -1,5 +1,7 @@
 
-import { Toparrow,BottomArrow,LeftArrow,RightArrow,RotateArrow } from "./Icons/index";
+import { Toparrow,BottomArrow,LeftArrow,RightArrow ,Location} from "./Icons/index";
+
+
 
 
 function App() {
@@ -7,11 +9,16 @@ function App() {
     <div className="App">
      
 
-     <Toparrow height="50" width="50"/>
-     <LeftArrow height="60" width="60"/>
-     <RightArrow height="70" width="70"/>
-     <BottomArrow height="50" width="50"/>
-     <RotateArrow height="50" width="50" rotate="110"/>
+    
+     <Toparrow/>
+     <BottomArrow/>
+     <LeftArrow/>
+     <RightArrow />
+     <Location/>
+     <Location height="100" width="100"/>
+
+    
+     
     </div>
   );
 }

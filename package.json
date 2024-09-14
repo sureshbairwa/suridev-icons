@@ -1,6 +1,6 @@
 {
   "name": "suridev-icons",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A Icon library for react apps",
   "author": "Suresh Bairwa",
   "private": false,
@@ -48,6 +48,7 @@
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.25.2",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.25.4",
     "cross-env": "^7.0.3",
     "rimraf": "^6.0.1"

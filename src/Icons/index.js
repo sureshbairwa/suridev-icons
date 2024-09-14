@@ -1,8 +1,7 @@
-import Toparrow from "./Toparrow";
-import BottomArrow from "./BottomArrow";
-import LeftArrow from "./LeftArrow";
-import RightArrow from "./RightArrow";
-import RotateArrow from "./RotateArrow";
+
+import { Toparrow,LeftArrow,RightArrow,BottomArrow,Location } from "./IconBundle";
 
 
-export {Toparrow,BottomArrow,LeftArrow,RightArrow,RotateArrow}
+
+
+export {Toparrow, BottomArrow,LeftArrow,RightArrow,Location}
