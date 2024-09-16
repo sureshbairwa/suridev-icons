@@ -26,7 +26,17 @@ import Searchsvg from './svg icons/Search.svg';
 import Trashsvg from './svg icons/Trash.svg';
 import Unlocksvg from './svg icons/Unlock.svg';
 import Uparrowsvg from './svg icons/Uparrow.svg';
+import circlesvg from './svg icons/Shapes/circle.svg'
 
+import ellipsesvg from './svg icons/Shapes/ellipse.svg';
+import hexagonsvg from './svg icons/Shapes/Hexagon.svg';
+import parallelogramsvg from './svg icons/Shapes/Parallelogram.svg';
+import pentagonsvg from './svg icons/Shapes/pentagon.svg';
+import rectanglesvg from './svg icons/Shapes/rectangle.svg';
+import squaresvg from './svg icons/Shapes/square.svg';
+import starsvg from './svg icons/Shapes/star.svg';
+import trapezoidsvg from './svg icons/Shapes/trapezoid.svg';
+import trianglesvg from './svg icons/Shapes/triangle.svg';
 
 
 
@@ -255,5 +265,49 @@ const Uparrow = (props) => {
 };
 
 
+const Circle = (props) => {
+    return <IconComponent SvgComponent={({ height, width }) => <img src={circlesvg} alt="Toparrow" height={height} width={width} />} {...props} />;
+};
+
+
+const Ellipse = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={ellipsesvg} alt="Ellipse" height={height} width={width} />} {...props} />
+);
+
+const Hexagon = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={hexagonsvg} alt="Hexagon" height={height} width={width} />} {...props} />
+);
+
+const Parallelogram = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={parallelogramsvg} alt="Parallelogram" height={height} width={width} />} {...props} />
+);
+
+const Pentagon = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={pentagonsvg} alt="Pentagon" height={height} width={width} />} {...props} />
+);
+
+const Rectangle = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={rectanglesvg} alt="Rectangle" height={height} width={width} />} {...props} />
+);
+
+const Square = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={squaresvg} alt="Square" height={height} width={width} />} {...props} />
+);
+
+const Star = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={starsvg} alt="Star" height={height} width={width} />} {...props} />
+);
+
+const Trapezoid = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={trapezoidsvg} alt="Trapezoid" height={height} width={width} />} {...props} />
+);
+
+const Triangle = (props) => (
+    <IconComponent SvgComponent={({ height, width }) => <img src={trianglesvg} alt="Triangle" height={height} width={width} />} {...props} />
+);
+
 export { Toparrow, LeftArrow, RightArrow, BottomArrow, Location ,Checkmark,Close, Close2, Close3, Delete, Downarrow, Heart, Home, Leftarrow2, Lock, Menu, 
-    Minus, Plus, Profile, RightArrow2, Search, Trash, Unlock, Uparrow};
+    Minus, Plus, Profile, RightArrow2, Search, Trash, Unlock, Uparrow,Circle};
+
+export { Ellipse, Hexagon, Parallelogram, Pentagon, Rectangle, Square, Star, Trapezoid, Triangle };
+

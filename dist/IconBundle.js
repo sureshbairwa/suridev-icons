@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Uparrow = exports.Unlock = exports.Trash = exports.Toparrow = exports.Search = exports.RightArrow2 = exports.RightArrow = exports.Profile = exports.Plus = exports.Minus = exports.Menu = exports.Lock = exports.Location = exports.Leftarrow2 = exports.LeftArrow = exports.Home = exports.Heart = exports.Downarrow = exports.Delete = exports.Close3 = exports.Close2 = exports.Close = exports.Checkmark = exports.BottomArrow = void 0;
+exports.Uparrow = exports.Unlock = exports.Triangle = exports.Trash = exports.Trapezoid = exports.Toparrow = exports.Star = exports.Square = exports.Search = exports.RightArrow2 = exports.RightArrow = exports.Rectangle = exports.Profile = exports.Plus = exports.Pentagon = exports.Parallelogram = exports.Minus = exports.Menu = exports.Lock = exports.Location = exports.Leftarrow2 = exports.LeftArrow = exports.Home = exports.Hexagon = exports.Heart = exports.Ellipse = exports.Downarrow = exports.Delete = exports.Close3 = exports.Close2 = exports.Close = exports.Circle = exports.Checkmark = exports.BottomArrow = void 0;
 require("core-js/modules/es.object.assign.js");
 var _react = _interopRequireDefault(require("react"));
 var _IconComponent = _interopRequireDefault(require("./IconComponent"));
@@ -31,6 +31,16 @@ var _Search = _interopRequireDefault(require("./svg icons/Search.svg"));
 var _Trash = _interopRequireDefault(require("./svg icons/Trash.svg"));
 var _Unlock = _interopRequireDefault(require("./svg icons/Unlock.svg"));
 var _Uparrow = _interopRequireDefault(require("./svg icons/Uparrow.svg"));
+var _circle = _interopRequireDefault(require("./svg icons/Shapes/circle.svg"));
+var _ellipse = _interopRequireDefault(require("./svg icons/Shapes/ellipse.svg"));
+var _Hexagon = _interopRequireDefault(require("./svg icons/Shapes/Hexagon.svg"));
+var _Parallelogram = _interopRequireDefault(require("./svg icons/Shapes/Parallelogram.svg"));
+var _pentagon = _interopRequireDefault(require("./svg icons/Shapes/pentagon.svg"));
+var _rectangle = _interopRequireDefault(require("./svg icons/Shapes/rectangle.svg"));
+var _square = _interopRequireDefault(require("./svg icons/Shapes/square.svg"));
+var _star = _interopRequireDefault(require("./svg icons/Shapes/star.svg"));
+var _trapezoid = _interopRequireDefault(require("./svg icons/Shapes/trapezoid.svg"));
+var _triangle = _interopRequireDefault(require("./svg icons/Shapes/triangle.svg"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); } // Fixed from 'IcomComponent' to 'IconComponent'
 const Toparrow = props => {
@@ -441,3 +451,155 @@ const Uparrow = props => {
   }, props));
 };
 exports.Uparrow = Uparrow;
+const Circle = props => {
+  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+    SvgComponent: _ref25 => {
+      let {
+        height,
+        width
+      } = _ref25;
+      return /*#__PURE__*/_react.default.createElement("img", {
+        src: _circle.default,
+        alt: "Toparrow",
+        height: height,
+        width: width
+      });
+    }
+  }, props));
+};
+exports.Circle = Circle;
+const Ellipse = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref26 => {
+    let {
+      height,
+      width
+    } = _ref26;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _ellipse.default,
+      alt: "Ellipse",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Ellipse = Ellipse;
+const Hexagon = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref27 => {
+    let {
+      height,
+      width
+    } = _ref27;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _Hexagon.default,
+      alt: "Hexagon",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Hexagon = Hexagon;
+const Parallelogram = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref28 => {
+    let {
+      height,
+      width
+    } = _ref28;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _Parallelogram.default,
+      alt: "Parallelogram",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Parallelogram = Parallelogram;
+const Pentagon = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref29 => {
+    let {
+      height,
+      width
+    } = _ref29;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _pentagon.default,
+      alt: "Pentagon",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Pentagon = Pentagon;
+const Rectangle = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref30 => {
+    let {
+      height,
+      width
+    } = _ref30;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _rectangle.default,
+      alt: "Rectangle",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Rectangle = Rectangle;
+const Square = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref31 => {
+    let {
+      height,
+      width
+    } = _ref31;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _square.default,
+      alt: "Square",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Square = Square;
+const Star = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref32 => {
+    let {
+      height,
+      width
+    } = _ref32;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _star.default,
+      alt: "Star",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Star = Star;
+const Trapezoid = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref33 => {
+    let {
+      height,
+      width
+    } = _ref33;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _trapezoid.default,
+      alt: "Trapezoid",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Trapezoid = Trapezoid;
+const Triangle = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
+  SvgComponent: _ref34 => {
+    let {
+      height,
+      width
+    } = _ref34;
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _triangle.default,
+      alt: "Triangle",
+      height: height,
+      width: width
+    });
+  }
+}, props));
+exports.Triangle = Triangle;
