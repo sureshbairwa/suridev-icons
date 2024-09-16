@@ -28,7 +28,7 @@ You can customize the size by passing props such as height and width.
 <Lock height="100" width="100" />
 ```
 
-For more deatails visit  [**`suridev-icons`**](https://suridev-icons.vercel.app/)
+For more details visit  [**`suridev-icons`**](https://suridev-icons.vercel.app/)
 
 **`suridev-icons`** is licensed under the MIT [License](https://github.com/sureshbairwa/suridev-icons/blob/main/LICENSE)
 
