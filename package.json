@@ -1,11 +1,12 @@
 {
   "name": "suridev-icons",
   "version": "1.0.9",
-  "description": "A Icon library for react apps",
+  "description": "A Icon library for react web apps",
   "author": "Suresh Bairwa",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "homepage": "https://suridev-icons.vercel.app/",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.17.0",
