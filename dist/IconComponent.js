@@ -10,11 +10,19 @@ const IconComponent = _ref => {
   let {
     SvgComponent,
     height = "24",
-    width = "24"
+    width = "24",
+    fill = "none",
+    stroke = "black",
+    strokeWidth = "3",
+    opacity = "1"
   } = _ref;
   return /*#__PURE__*/_react.default.createElement(SvgComponent, {
     height: height,
-    width: width
+    width: width,
+    fill: fill,
+    stroke: stroke,
+    strokeWidth: strokeWidth,
+    opacity: opacity
   });
 };
 var _default = exports.default = IconComponent;

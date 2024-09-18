@@ -3,603 +3,586 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Uparrow = exports.Unlock = exports.Triangle = exports.Trash = exports.Trapezoid = exports.Toparrow = exports.Star = exports.Square = exports.Search = exports.RightArrow2 = exports.RightArrow = exports.Rectangle = exports.Profile = exports.Plus = exports.Pentagon = exports.Parallelogram = exports.Minus = exports.Menu = exports.Lock = exports.Location = exports.Leftarrow2 = exports.LeftArrow = exports.Home = exports.Hexagon = exports.Heart = exports.Ellipse = exports.Downarrow = exports.Delete = exports.Close3 = exports.Close2 = exports.Close = exports.Circle = exports.Checkmark = exports.BottomArrow = void 0;
-require("core-js/modules/es.object.assign.js");
+exports.Uparrow = exports.Unlock = exports.Triangle = exports.Trash = exports.Trapezoid = exports.Star = exports.Square = exports.Search = exports.RightArrow2 = exports.Rectangle = exports.Profile = exports.Plus = exports.Pentagon = exports.Parallelogram = exports.Minus = exports.Menu = exports.Lock = exports.Leftarrow2 = exports.Home = exports.Hexagon = exports.Heart = exports.Ellipse = exports.Downarrow = exports.Delete = exports.Close3 = exports.Close2 = exports.Close = exports.Circle = exports.Checkmark = void 0;
 var _react = _interopRequireDefault(require("react"));
-var _IconComponent = _interopRequireDefault(require("./IconComponent"));
-var _Toparrow = _interopRequireDefault(require("./svg icons/Toparrow.svg"));
-var _LeftArrow = _interopRequireDefault(require("./svg icons/LeftArrow.svg"));
-var _RightArrow = _interopRequireDefault(require("./svg icons/RightArrow.svg"));
-var _BottomArrow = _interopRequireDefault(require("./svg icons/BottomArrow.svg"));
-var _location = _interopRequireDefault(require("./svg icons/location.svg"));
-var _Checkmark = _interopRequireDefault(require("./svg icons/Checkmark.svg"));
-var _close = _interopRequireDefault(require("./svg icons/close.svg"));
-var _close2 = _interopRequireDefault(require("./svg icons/close2.svg"));
-var _Close = _interopRequireDefault(require("./svg icons/Close3.svg"));
-var _delete = _interopRequireDefault(require("./svg icons/delete.svg"));
-var _Downarrow = _interopRequireDefault(require("./svg icons/Downarrow.svg"));
-var _Heart = _interopRequireDefault(require("./svg icons/Heart.svg"));
-var _Home = _interopRequireDefault(require("./svg icons/Home.svg"));
-var _Leftarrow = _interopRequireDefault(require("./svg icons/Leftarrow2.svg"));
-var _Lock = _interopRequireDefault(require("./svg icons/Lock.svg"));
-var _Menu = _interopRequireDefault(require("./svg icons/Menu.svg"));
-var _Minus = _interopRequireDefault(require("./svg icons/Minus.svg"));
-var _Plus = _interopRequireDefault(require("./svg icons/Plus.svg"));
-var _Profile = _interopRequireDefault(require("./svg icons/Profile.svg"));
-var _Rightarrow = _interopRequireDefault(require("./svg icons/Rightarrow2.svg"));
-var _Search = _interopRequireDefault(require("./svg icons/Search.svg"));
-var _Trash = _interopRequireDefault(require("./svg icons/Trash.svg"));
-var _Unlock = _interopRequireDefault(require("./svg icons/Unlock.svg"));
-var _Uparrow = _interopRequireDefault(require("./svg icons/Uparrow.svg"));
-var _circle = _interopRequireDefault(require("./svg icons/Shapes/circle.svg"));
-var _ellipse = _interopRequireDefault(require("./svg icons/Shapes/ellipse.svg"));
-var _Hexagon = _interopRequireDefault(require("./svg icons/Shapes/Hexagon.svg"));
-var _Parallelogram = _interopRequireDefault(require("./svg icons/Shapes/Parallelogram.svg"));
-var _pentagon = _interopRequireDefault(require("./svg icons/Shapes/pentagon.svg"));
-var _rectangle = _interopRequireDefault(require("./svg icons/Shapes/rectangle.svg"));
-var _square = _interopRequireDefault(require("./svg icons/Shapes/square.svg"));
-var _star = _interopRequireDefault(require("./svg icons/Shapes/star.svg"));
-var _trapezoid = _interopRequireDefault(require("./svg icons/Shapes/trapezoid.svg"));
-var _triangle = _interopRequireDefault(require("./svg icons/Shapes/triangle.svg"));
+var _Checkmark = require("./svg icons/Checkmark.svg");
+var _close = require("./svg icons/close.svg");
+var _close2 = require("./svg icons/close2.svg");
+var _Close = require("./svg icons/Close3.svg");
+var _delete = require("./svg icons/delete.svg");
+var _Downarrow = require("./svg icons/Downarrow.svg");
+var _Heart = require("./svg icons/Heart.svg");
+var _Home = require("./svg icons/Home.svg");
+var _Leftarrow = require("./svg icons/Leftarrow2.svg");
+var _Lock = require("./svg icons/Lock.svg");
+var _Menu = require("./svg icons/Menu.svg");
+var _Minus = require("./svg icons/Minus.svg");
+var _Plus = require("./svg icons/Plus.svg");
+var _Profile = require("./svg icons/Profile.svg");
+var _Rightarrow = require("./svg icons/Rightarrow2.svg");
+var _Search = require("./svg icons/Search.svg");
+var _Trash = require("./svg icons/Trash.svg");
+var _Unlock = require("./svg icons/Unlock.svg");
+var _Uparrow = require("./svg icons/Uparrow.svg");
+var _circle = require("./svg icons/Shapes/circle.svg");
+var _ellipse = require("./svg icons/Shapes/ellipse.svg");
+var _Hexagon = require("./svg icons/Shapes/Hexagon.svg");
+var _Parallelogram = require("./svg icons/Shapes/Parallelogram.svg");
+var _pentagon = require("./svg icons/Shapes/pentagon.svg");
+var _rectangle = require("./svg icons/Shapes/rectangle.svg");
+var _square = require("./svg icons/Shapes/square.svg");
+var _star = require("./svg icons/Shapes/star.svg");
+var _trapezoid = require("./svg icons/Shapes/trapezoid.svg");
+var _triangle = require("./svg icons/Shapes/triangle.svg");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); } // Fixed from 'IcomComponent' to 'IconComponent'
-const Toparrow = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref => {
-      let {
-        height,
-        width
-      } = _ref;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Toparrow.default,
-        alt: "Toparrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Toparrow = Toparrow;
-const LeftArrow = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref2 => {
-      let {
-        height,
-        width
-      } = _ref2;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _LeftArrow.default,
-        alt: "LeftArrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.LeftArrow = LeftArrow;
-const RightArrow = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref3 => {
-      let {
-        height,
-        width
-      } = _ref3;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _RightArrow.default,
-        alt: "RightArrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.RightArrow = RightArrow;
-const BottomArrow = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref4 => {
-      let {
-        height,
-        width
-      } = _ref4;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _BottomArrow.default,
-        alt: "BottomArrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.BottomArrow = BottomArrow;
-const Location = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref5 => {
-      let {
-        height,
-        width
-      } = _ref5;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _location.default,
-        alt: "Location",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Location = Location;
-const Checkmark = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref6 => {
-      let {
-        height,
-        width
-      } = _ref6;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Checkmark.default,
-        alt: "Location",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Checkmark = Checkmark;
-const Close = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref7 => {
-      let {
-        height,
-        width
-      } = _ref7;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _close.default,
-        alt: "Close",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Close = Close;
-const Close2 = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref8 => {
-      let {
-        height,
-        width
-      } = _ref8;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _close2.default,
-        alt: "Close2",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Close2 = Close2;
-const Close3 = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref9 => {
-      let {
-        height,
-        width
-      } = _ref9;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Close.default,
-        alt: "Close3",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Close3 = Close3;
-const Delete = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref10 => {
-      let {
-        height,
-        width
-      } = _ref10;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _delete.default,
-        alt: "Delete",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Delete = Delete;
-const Downarrow = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref11 => {
-      let {
-        height,
-        width
-      } = _ref11;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Downarrow.default,
-        alt: "Downarrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Downarrow = Downarrow;
-const Heart = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref12 => {
-      let {
-        height,
-        width
-      } = _ref12;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Heart.default,
-        alt: "Heart",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Heart = Heart;
-const Home = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref13 => {
-      let {
-        height,
-        width
-      } = _ref13;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Home.default,
-        alt: "Home",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Home = Home;
-const Leftarrow2 = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref14 => {
-      let {
-        height,
-        width
-      } = _ref14;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Leftarrow.default,
-        alt: "Leftarrow2",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Leftarrow2 = Leftarrow2;
-const Lock = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref15 => {
-      let {
-        height,
-        width
-      } = _ref15;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Lock.default,
-        alt: "Lock",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Lock = Lock;
-const Menu = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref16 => {
-      let {
-        height,
-        width
-      } = _ref16;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Menu.default,
-        alt: "Menu",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Menu = Menu;
-const Minus = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref17 => {
-      let {
-        height,
-        width
-      } = _ref17;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Minus.default,
-        alt: "Minus",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Minus = Minus;
-const Plus = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref18 => {
-      let {
-        height,
-        width
-      } = _ref18;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Plus.default,
-        alt: "Plus",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Plus = Plus;
-const Profile = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref19 => {
-      let {
-        height,
-        width
-      } = _ref19;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Profile.default,
-        alt: "Profile",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Profile = Profile;
-const RightArrow2 = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref20 => {
-      let {
-        height,
-        width
-      } = _ref20;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Rightarrow.default,
-        alt: "RightArrow2",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.RightArrow2 = RightArrow2;
-const Search = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref21 => {
-      let {
-        height,
-        width
-      } = _ref21;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Search.default,
-        alt: "Search",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Search = Search;
-const Trash = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref22 => {
-      let {
-        height,
-        width
-      } = _ref22;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Trash.default,
-        alt: "Trash",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Trash = Trash;
-const Unlock = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref23 => {
-      let {
-        height,
-        width
-      } = _ref23;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Unlock.default,
-        alt: "Unlock",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Unlock = Unlock;
-const Uparrow = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref24 => {
-      let {
-        height,
-        width
-      } = _ref24;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _Uparrow.default,
-        alt: "Uparrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
-};
-exports.Uparrow = Uparrow;
-const Circle = props => {
-  return /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-    SvgComponent: _ref25 => {
-      let {
-        height,
-        width
-      } = _ref25;
-      return /*#__PURE__*/_react.default.createElement("img", {
-        src: _circle.default,
-        alt: "Toparrow",
-        height: height,
-        width: width
-      });
-    }
-  }, props));
+const Circle = _ref => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref;
+  return /*#__PURE__*/_react.default.createElement(_circle.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
 };
 exports.Circle = Circle;
-const Ellipse = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref26 => {
-    let {
-      height,
-      width
-    } = _ref26;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _ellipse.default,
-      alt: "Ellipse",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Checkmark = _ref2 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref2;
+  return /*#__PURE__*/_react.default.createElement(_Checkmark.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Checkmark = Checkmark;
+const Close = _ref3 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref3;
+  return /*#__PURE__*/_react.default.createElement(_close.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Close = Close;
+const Close2 = _ref4 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref4;
+  return /*#__PURE__*/_react.default.createElement(_close2.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Close2 = Close2;
+const Close3 = _ref5 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref5;
+  return /*#__PURE__*/_react.default.createElement(_Close.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Close3 = Close3;
+const Delete = _ref6 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref6;
+  return /*#__PURE__*/_react.default.createElement(_delete.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Delete = Delete;
+const Downarrow = _ref7 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref7;
+  return /*#__PURE__*/_react.default.createElement(_Downarrow.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Downarrow = Downarrow;
+const Heart = _ref8 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref8;
+  return /*#__PURE__*/_react.default.createElement(_Heart.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Heart = Heart;
+const Home = _ref9 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref9;
+  return /*#__PURE__*/_react.default.createElement(_Home.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Home = Home;
+const Leftarrow2 = _ref10 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref10;
+  return /*#__PURE__*/_react.default.createElement(_Leftarrow.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Leftarrow2 = Leftarrow2;
+const Lock = _ref11 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref11;
+  return /*#__PURE__*/_react.default.createElement(_Lock.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Lock = Lock;
+const Menu = _ref12 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref12;
+  return /*#__PURE__*/_react.default.createElement(_Menu.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Menu = Menu;
+const Minus = _ref13 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref13;
+  return /*#__PURE__*/_react.default.createElement(_Minus.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Minus = Minus;
+const Plus = _ref14 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref14;
+  return /*#__PURE__*/_react.default.createElement(_Plus.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Plus = Plus;
+const Profile = _ref15 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref15;
+  return /*#__PURE__*/_react.default.createElement(_Profile.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Profile = Profile;
+const RightArrow2 = _ref16 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref16;
+  return /*#__PURE__*/_react.default.createElement(_Rightarrow.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.RightArrow2 = RightArrow2;
+const Search = _ref17 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref17;
+  return /*#__PURE__*/_react.default.createElement(_Search.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Search = Search;
+const Trash = _ref18 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref18;
+  return /*#__PURE__*/_react.default.createElement(_Trash.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Trash = Trash;
+const Unlock = _ref19 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref19;
+  return /*#__PURE__*/_react.default.createElement(_Unlock.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Unlock = Unlock;
+const Uparrow = _ref20 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref20;
+  return /*#__PURE__*/_react.default.createElement(_Uparrow.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
+exports.Uparrow = Uparrow;
+const Ellipse = _ref21 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref21;
+  return /*#__PURE__*/_react.default.createElement(_ellipse.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Ellipse = Ellipse;
-const Hexagon = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref27 => {
-    let {
-      height,
-      width
-    } = _ref27;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _Hexagon.default,
-      alt: "Hexagon",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Hexagon = _ref22 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref22;
+  return /*#__PURE__*/_react.default.createElement(_Hexagon.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Hexagon = Hexagon;
-const Parallelogram = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref28 => {
-    let {
-      height,
-      width
-    } = _ref28;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _Parallelogram.default,
-      alt: "Parallelogram",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Parallelogram = _ref23 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref23;
+  return /*#__PURE__*/_react.default.createElement(_Parallelogram.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Parallelogram = Parallelogram;
-const Pentagon = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref29 => {
-    let {
-      height,
-      width
-    } = _ref29;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _pentagon.default,
-      alt: "Pentagon",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Pentagon = _ref24 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref24;
+  return /*#__PURE__*/_react.default.createElement(_pentagon.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Pentagon = Pentagon;
-const Rectangle = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref30 => {
-    let {
-      height,
-      width
-    } = _ref30;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _rectangle.default,
-      alt: "Rectangle",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Rectangle = _ref25 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref25;
+  return /*#__PURE__*/_react.default.createElement(_rectangle.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Rectangle = Rectangle;
-const Square = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref31 => {
-    let {
-      height,
-      width
-    } = _ref31;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _square.default,
-      alt: "Square",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Square = _ref26 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref26;
+  return /*#__PURE__*/_react.default.createElement(_square.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Square = Square;
-const Star = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref32 => {
-    let {
-      height,
-      width
-    } = _ref32;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _star.default,
-      alt: "Star",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Star = _ref27 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref27;
+  return /*#__PURE__*/_react.default.createElement(_star.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Star = Star;
-const Trapezoid = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref33 => {
-    let {
-      height,
-      width
-    } = _ref33;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _trapezoid.default,
-      alt: "Trapezoid",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Trapezoid = _ref28 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref28;
+  return /*#__PURE__*/_react.default.createElement(_trapezoid.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Trapezoid = Trapezoid;
-const Triangle = props => /*#__PURE__*/_react.default.createElement(_IconComponent.default, _extends({
-  SvgComponent: _ref34 => {
-    let {
-      height,
-      width
-    } = _ref34;
-    return /*#__PURE__*/_react.default.createElement("img", {
-      src: _triangle.default,
-      alt: "Triangle",
-      height: height,
-      width: width
-    });
-  }
-}, props));
+const Triangle = _ref29 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1"
+  } = _ref29;
+  return /*#__PURE__*/_react.default.createElement(_triangle.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity
+  });
+};
 exports.Triangle = Triangle;

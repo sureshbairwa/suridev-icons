@@ -3,12 +3,6 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "BottomArrow", {
-  enumerable: true,
-  get: function get() {
-    return _IconBundle.BottomArrow;
-  }
-});
 Object.defineProperty(exports, "Checkmark", {
   enumerable: true,
   get: function get() {
@@ -75,22 +69,10 @@ Object.defineProperty(exports, "Home", {
     return _IconBundle.Home;
   }
 });
-Object.defineProperty(exports, "LeftArrow", {
-  enumerable: true,
-  get: function get() {
-    return _IconBundle.LeftArrow;
-  }
-});
 Object.defineProperty(exports, "Leftarrow2", {
   enumerable: true,
   get: function get() {
     return _IconBundle.Leftarrow2;
-  }
-});
-Object.defineProperty(exports, "Location", {
-  enumerable: true,
-  get: function get() {
-    return _IconBundle.Location;
   }
 });
 Object.defineProperty(exports, "Lock", {
@@ -141,12 +123,6 @@ Object.defineProperty(exports, "Rectangle", {
     return _IconBundle.Rectangle;
   }
 });
-Object.defineProperty(exports, "RightArrow", {
-  enumerable: true,
-  get: function get() {
-    return _IconBundle.RightArrow;
-  }
-});
 Object.defineProperty(exports, "RightArrow2", {
   enumerable: true,
   get: function get() {
@@ -169,12 +145,6 @@ Object.defineProperty(exports, "Star", {
   enumerable: true,
   get: function get() {
     return _IconBundle.Star;
-  }
-});
-Object.defineProperty(exports, "Toparrow", {
-  enumerable: true,
-  get: function get() {
-    return _IconBundle.Toparrow;
   }
 });
 Object.defineProperty(exports, "Trapezoid", {
