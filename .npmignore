@@ -1,0 +1,10 @@
+# Ignore source files
+src/
+
+# Ignore tests
+tests/
+*.log
+
+# Ignore configuration files
+.git/
+.env

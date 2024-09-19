@@ -17,16 +17,16 @@ function App() {
     <div className="App">
      
 
-    {/*
+    
   
-     {iconsArray.map((IconComponent, index) => (
+     {/* {iconsArray.map((IconComponent, index) => (
                 <div key={index} className="icon-container">
                     <IconComponent height="300" width="300" strokeWidth="1" fill="purple"  stroke="grey"  opacity="0.7"  />
                     <p>{IconComponent.name}</p>  Displaying the name of the component 
                 </div>
-            ))}
+            ))} */}
 
-            */}
+           
 
 
             
