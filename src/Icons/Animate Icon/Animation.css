@@ -1,0 +1,109 @@
+@keyframes strokeColorChange {
+    0% {
+      stroke: var(--random-color); 
+    }
+    25% {
+        stroke: var(--random-color); 
+      }
+    50% {
+        stroke: var(--random-color); 
+      }
+    75% {
+        stroke: var(--random-color); 
+      }
+    100% {
+      stroke: var(--random-color); 
+    }
+  }
+
+  @keyframes stroke2ColorAnimation {
+    0% {
+      stroke: #ff00ea; 
+    }
+    50% {
+      stroke: rgb(43, 205, 53); 
+    }
+    100% {
+      stroke: #ff00ea; 
+    }
+  }
+
+  @keyframes stroke3ColorAnimation {
+    0% {
+      stroke: #2fb7cb; 
+    }
+    50% {
+      stroke: #bdda19; 
+    }
+    75% {
+      stroke: #d7210c; 
+    }
+
+    100% {
+      stroke: #2fb7cb; 
+    }
+  }
+  
+
+  @keyframes strokeWidth1To2 {
+    0% {
+      stroke-width: 1; 
+    }
+    50% {
+      stroke-width: 2; 
+    }
+    
+    100% {
+      stroke-width: 1; 
+    }
+  }
+
+  
+
+  @keyframes strokeWidth1To3 {
+    0% {
+      stroke-width: 1; 
+    }
+    50% {
+      stroke-width: 3; 
+    }
+    
+    100% {
+      stroke-width: 1; 
+    }
+  }
+
+
+
+
+
+
+
+  .icon-animation {
+    animation: strokeColorChange 2s infinite;
+  }
+  
+  .two-color {
+    animation: stroke2ColorAnimation 2s infinite;
+  }
+  .three-color {
+    animation: stroke3ColorAnimation 4s infinite;
+  }
+  .stroke-1to2 {
+    animation: strokeWidth1To2 3s infinite;
+  }
+
+  .stroke-1to3 {
+    animation: strokeWidth1To3 3s infinite;
+  }
+
+
+
+
+
+
+
+ 
+
+  
+  

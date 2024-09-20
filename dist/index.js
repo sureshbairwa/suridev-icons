@@ -69,6 +69,12 @@ Object.defineProperty(exports, "Home", {
     return _IconBundle.Home;
   }
 });
+Object.defineProperty(exports, "IconAnimation", {
+  enumerable: true,
+  get: function get() {
+    return _IconAnimation.default;
+  }
+});
 Object.defineProperty(exports, "Leftarrow2", {
   enumerable: true,
   get: function get() {
@@ -141,6 +147,12 @@ Object.defineProperty(exports, "Square", {
     return _IconBundle.Square;
   }
 });
+Object.defineProperty(exports, "Square2", {
+  enumerable: true,
+  get: function get() {
+    return _IconBundle.Square2;
+  }
+});
 Object.defineProperty(exports, "Star", {
   enumerable: true,
   get: function get() {
@@ -178,3 +190,5 @@ Object.defineProperty(exports, "Uparrow", {
   }
 });
 var _IconBundle = require("./IconBundle");
+var _IconAnimation = _interopRequireDefault(require("./Animate Icon/IconAnimation"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }

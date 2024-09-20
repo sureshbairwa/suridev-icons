@@ -12,30 +12,26 @@ const iconsArray = [
 ];
 
 
+
 function App() {
+ 
+  
+
   return (
     <div className="App">
      
 
-    
+      
   
      {/* {iconsArray.map((IconComponent, index) => (
                 <div key={index} className="icon-container">
-                    <IconComponent height="300" width="300" strokeWidth="1" fill="purple"  stroke="grey"  opacity="0.7"  />
+                    <IconComponent height="200" width="200" strokeWidth="1"   stroke="red"  opacity="1" className="three-color stroke-1to2  " />
                     <p>{IconComponent.name}</p>  Displaying the name of the component 
                 </div>
             ))} */}
 
-           
 
-
-            
      
-
-     {/* <Location height="300" width="300" strokeWidth="1" fill="green"  stroke="red"  opacity="0.4" />
-     <Circle height="200" width="200" strokeWidth="3" fill="red"  stroke="green"  opacity="0.8" />
-
-     <Rectangle height="200" width="200" strokeWidth="5" fill="red"  stroke="green"  opacity="0.8" /> */}
 
         
 

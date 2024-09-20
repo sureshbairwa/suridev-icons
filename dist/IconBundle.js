@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Uparrow = exports.Unlock = exports.Triangle = exports.Trash = exports.Trapezoid = exports.Star = exports.Square = exports.Search = exports.RightArrow2 = exports.Rectangle = exports.Profile = exports.Plus = exports.Pentagon = exports.Parallelogram = exports.Minus = exports.Menu = exports.Lock = exports.Leftarrow2 = exports.Home = exports.Hexagon = exports.Heart = exports.Ellipse = exports.Downarrow = exports.Delete = exports.Close3 = exports.Close2 = exports.Close = exports.Circle = exports.Checkmark = void 0;
+exports.Uparrow = exports.Unlock = exports.Triangle = exports.Trash = exports.Trapezoid = exports.Star = exports.Square2 = exports.Square = exports.Search = exports.RightArrow2 = exports.Rectangle = exports.Profile = exports.Plus = exports.Pentagon = exports.Parallelogram = exports.Minus = exports.Menu = exports.Lock = exports.Leftarrow2 = exports.Home = exports.Hexagon = exports.Heart = exports.Ellipse = exports.Downarrow = exports.Delete = exports.Close3 = exports.Close2 = exports.Close = exports.Circle = exports.Checkmark = void 0;
 var _react = _interopRequireDefault(require("react"));
 var _Checkmark = require("./svg icons/Checkmark.svg");
 var _close = require("./svg icons/close.svg");
@@ -42,7 +42,8 @@ const Circle = _ref => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref;
   return /*#__PURE__*/_react.default.createElement(_circle.ReactComponent, {
     height: height,
@@ -50,7 +51,8 @@ const Circle = _ref => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Circle = Circle;
@@ -61,7 +63,8 @@ const Checkmark = _ref2 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref2;
   return /*#__PURE__*/_react.default.createElement(_Checkmark.ReactComponent, {
     height: height,
@@ -69,7 +72,8 @@ const Checkmark = _ref2 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Checkmark = Checkmark;
@@ -80,7 +84,8 @@ const Close = _ref3 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref3;
   return /*#__PURE__*/_react.default.createElement(_close.ReactComponent, {
     height: height,
@@ -88,7 +93,8 @@ const Close = _ref3 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Close = Close;
@@ -99,7 +105,8 @@ const Close2 = _ref4 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref4;
   return /*#__PURE__*/_react.default.createElement(_close2.ReactComponent, {
     height: height,
@@ -107,7 +114,8 @@ const Close2 = _ref4 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Close2 = Close2;
@@ -118,7 +126,8 @@ const Close3 = _ref5 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref5;
   return /*#__PURE__*/_react.default.createElement(_Close.ReactComponent, {
     height: height,
@@ -126,7 +135,8 @@ const Close3 = _ref5 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Close3 = Close3;
@@ -137,7 +147,8 @@ const Delete = _ref6 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref6;
   return /*#__PURE__*/_react.default.createElement(_delete.ReactComponent, {
     height: height,
@@ -145,7 +156,8 @@ const Delete = _ref6 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Delete = Delete;
@@ -156,7 +168,8 @@ const Downarrow = _ref7 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref7;
   return /*#__PURE__*/_react.default.createElement(_Downarrow.ReactComponent, {
     height: height,
@@ -164,7 +177,8 @@ const Downarrow = _ref7 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Downarrow = Downarrow;
@@ -175,7 +189,8 @@ const Heart = _ref8 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref8;
   return /*#__PURE__*/_react.default.createElement(_Heart.ReactComponent, {
     height: height,
@@ -183,7 +198,8 @@ const Heart = _ref8 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Heart = Heart;
@@ -194,7 +210,8 @@ const Home = _ref9 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref9;
   return /*#__PURE__*/_react.default.createElement(_Home.ReactComponent, {
     height: height,
@@ -202,7 +219,8 @@ const Home = _ref9 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Home = Home;
@@ -213,7 +231,8 @@ const Leftarrow2 = _ref10 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref10;
   return /*#__PURE__*/_react.default.createElement(_Leftarrow.ReactComponent, {
     height: height,
@@ -221,7 +240,8 @@ const Leftarrow2 = _ref10 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Leftarrow2 = Leftarrow2;
@@ -232,7 +252,8 @@ const Lock = _ref11 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref11;
   return /*#__PURE__*/_react.default.createElement(_Lock.ReactComponent, {
     height: height,
@@ -240,7 +261,8 @@ const Lock = _ref11 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Lock = Lock;
@@ -251,7 +273,8 @@ const Menu = _ref12 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref12;
   return /*#__PURE__*/_react.default.createElement(_Menu.ReactComponent, {
     height: height,
@@ -259,7 +282,8 @@ const Menu = _ref12 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Menu = Menu;
@@ -270,7 +294,8 @@ const Minus = _ref13 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref13;
   return /*#__PURE__*/_react.default.createElement(_Minus.ReactComponent, {
     height: height,
@@ -278,7 +303,8 @@ const Minus = _ref13 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Minus = Minus;
@@ -289,7 +315,8 @@ const Plus = _ref14 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref14;
   return /*#__PURE__*/_react.default.createElement(_Plus.ReactComponent, {
     height: height,
@@ -297,7 +324,8 @@ const Plus = _ref14 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Plus = Plus;
@@ -308,7 +336,8 @@ const Profile = _ref15 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref15;
   return /*#__PURE__*/_react.default.createElement(_Profile.ReactComponent, {
     height: height,
@@ -316,7 +345,8 @@ const Profile = _ref15 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Profile = Profile;
@@ -327,7 +357,8 @@ const RightArrow2 = _ref16 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref16;
   return /*#__PURE__*/_react.default.createElement(_Rightarrow.ReactComponent, {
     height: height,
@@ -335,7 +366,8 @@ const RightArrow2 = _ref16 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.RightArrow2 = RightArrow2;
@@ -346,7 +378,8 @@ const Search = _ref17 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref17;
   return /*#__PURE__*/_react.default.createElement(_Search.ReactComponent, {
     height: height,
@@ -354,7 +387,8 @@ const Search = _ref17 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Search = Search;
@@ -365,7 +399,8 @@ const Trash = _ref18 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref18;
   return /*#__PURE__*/_react.default.createElement(_Trash.ReactComponent, {
     height: height,
@@ -373,7 +408,8 @@ const Trash = _ref18 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Trash = Trash;
@@ -384,7 +420,8 @@ const Unlock = _ref19 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref19;
   return /*#__PURE__*/_react.default.createElement(_Unlock.ReactComponent, {
     height: height,
@@ -392,7 +429,8 @@ const Unlock = _ref19 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Unlock = Unlock;
@@ -403,7 +441,8 @@ const Uparrow = _ref20 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref20;
   return /*#__PURE__*/_react.default.createElement(_Uparrow.ReactComponent, {
     height: height,
@@ -411,7 +450,8 @@ const Uparrow = _ref20 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Uparrow = Uparrow;
@@ -422,7 +462,8 @@ const Ellipse = _ref21 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref21;
   return /*#__PURE__*/_react.default.createElement(_ellipse.ReactComponent, {
     height: height,
@@ -430,7 +471,8 @@ const Ellipse = _ref21 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Ellipse = Ellipse;
@@ -441,7 +483,8 @@ const Hexagon = _ref22 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref22;
   return /*#__PURE__*/_react.default.createElement(_Hexagon.ReactComponent, {
     height: height,
@@ -449,7 +492,8 @@ const Hexagon = _ref22 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Hexagon = Hexagon;
@@ -460,7 +504,8 @@ const Parallelogram = _ref23 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref23;
   return /*#__PURE__*/_react.default.createElement(_Parallelogram.ReactComponent, {
     height: height,
@@ -468,7 +513,8 @@ const Parallelogram = _ref23 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Parallelogram = Parallelogram;
@@ -479,7 +525,8 @@ const Pentagon = _ref24 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref24;
   return /*#__PURE__*/_react.default.createElement(_pentagon.ReactComponent, {
     height: height,
@@ -487,7 +534,8 @@ const Pentagon = _ref24 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Pentagon = Pentagon;
@@ -498,7 +546,8 @@ const Rectangle = _ref25 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref25;
   return /*#__PURE__*/_react.default.createElement(_rectangle.ReactComponent, {
     height: height,
@@ -506,7 +555,8 @@ const Rectangle = _ref25 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Rectangle = Rectangle;
@@ -517,7 +567,8 @@ const Square = _ref26 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref26;
   return /*#__PURE__*/_react.default.createElement(_square.ReactComponent, {
     height: height,
@@ -525,7 +576,8 @@ const Square = _ref26 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Square = Square;
@@ -536,7 +588,8 @@ const Star = _ref27 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref27;
   return /*#__PURE__*/_react.default.createElement(_star.ReactComponent, {
     height: height,
@@ -544,7 +597,8 @@ const Star = _ref27 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Star = Star;
@@ -555,7 +609,8 @@ const Trapezoid = _ref28 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref28;
   return /*#__PURE__*/_react.default.createElement(_trapezoid.ReactComponent, {
     height: height,
@@ -563,7 +618,8 @@ const Trapezoid = _ref28 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Trapezoid = Trapezoid;
@@ -574,7 +630,8 @@ const Triangle = _ref29 => {
     stroke = "black",
     strokeWidth = "3",
     fill = "none",
-    opacity = "1"
+    opacity = "1",
+    className = ""
   } = _ref29;
   return /*#__PURE__*/_react.default.createElement(_triangle.ReactComponent, {
     height: height,
@@ -582,7 +639,29 @@ const Triangle = _ref29 => {
     stroke: stroke,
     fill: fill,
     strokeWidth: strokeWidth,
-    opacity: opacity
+    opacity: opacity,
+    className: className
   });
 };
 exports.Triangle = Triangle;
+const Square2 = _ref30 => {
+  let {
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1",
+    className = ""
+  } = _ref30;
+  return /*#__PURE__*/_react.default.createElement(_square.ReactComponent, {
+    height: height,
+    width: width,
+    stroke: stroke,
+    fill: fill,
+    strokeWidth: strokeWidth,
+    opacity: opacity,
+    className: className
+  });
+};
+exports.Square2 = Square2;

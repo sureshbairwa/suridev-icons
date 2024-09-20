@@ -33,126 +33,148 @@ import { ReactComponent as Trapezoidcomp } from './svg icons/Shapes/trapezoid.sv
 import { ReactComponent as Trianglecomp } from './svg icons/Shapes/triangle.svg';
 
 
-
-
-const Circle = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Circlecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Circle = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""   }) => (
+    <Circlecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
 
 
-const Checkmark = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Checkmarkcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Checkmark = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Checkmarkcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Close = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Closecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Close = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Closecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Close2 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Close2comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Close2 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Close2comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Close3 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Close3comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Close3 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Close3comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Delete = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Deletecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Delete = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Deletecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Downarrow = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Downarrowcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Downarrow = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Downarrowcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Heart = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Heartcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Heart = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Heartcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Home = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Homecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Home = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Homecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Leftarrow2 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Leftarrow2comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Leftarrow2 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Leftarrow2comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Lock = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Lockcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Lock = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Lockcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Menu = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Menucomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Menu = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Menucomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Minus = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Minuscomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Minus = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Minuscomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Plus = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Pluscomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Plus = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Pluscomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Profile = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Profilecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Profile = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Profilecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const RightArrow2 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <RightArrow2comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const RightArrow2 = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <RightArrow2comp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Search = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Searchcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Search = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Searchcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Trash = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Trashcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Trash = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Trashcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Unlock = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Unlockcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Unlock = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Unlockcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Uparrow = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Uparrowcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Uparrow = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Uparrowcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
 
-const Ellipse = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Ellipsecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Ellipse = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Ellipsecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Hexagon = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Hexagoncomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Hexagon = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Hexagoncomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Parallelogram = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Parallelogramcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Parallelogram = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Parallelogramcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Pentagon = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Pentagoncomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Pentagon = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Pentagoncomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Rectangle = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Rectanglecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Rectangle = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Rectanglecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Square = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Squarecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Square = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Squarecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Star = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Starcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Star = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Starcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Trapezoid = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Trapezoidcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Trapezoid = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Trapezoidcomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
 
-const Triangle = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" }) => (
-    <Trianglecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} />
+const Triangle = ({ height = "24", width = "24", stroke = "black", strokeWidth = "3", fill = "none", opacity = "1" , className = ""  }) => (
+    <Trianglecomp height={height} width={width} stroke={stroke} fill={fill} strokeWidth={strokeWidth} opacity={opacity} className={className} />
 );
+
+const Square2 = ({
+    height = "24",
+    width = "24",
+    stroke = "black",
+    strokeWidth = "3",
+    fill = "none",
+    opacity = "1" , 
+    className = ""  
+  }) => {
+
+    return (
+      <Squarecomp
+        height={height}
+        width={width}
+        stroke={stroke}
+        fill={fill}
+        strokeWidth={strokeWidth}
+        opacity={opacity} 
+        className={className} 
+      />
+    );
+  };
+  
 
 
 export {
@@ -164,3 +186,7 @@ export {
 export {
     Ellipse, Hexagon, Parallelogram, Pentagon, Rectangle, Square, Star, Trapezoid, Triangle
 };
+
+
+
+export {Square2}
