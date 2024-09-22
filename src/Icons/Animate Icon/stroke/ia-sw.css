@@ -1,0 +1,112 @@
+
+@keyframes strokeWidth {
+  0%{
+    stroke-width: 1;
+  }
+  
+
+  40%{
+    stroke-width: 3;
+    stroke-dasharray: 2 0.2;
+  }
+  
+  
+
+  100%{
+    stroke-width: 1;
+
+  }
+}
+
+.ia-sw {
+  animation: strokeWidth 2s linear infinite;
+  stroke-dashoffset: 0;
+
+}
+
+
+@keyframes strokeWidth1 {
+    0%{
+      stroke-width: 1;
+    }
+    100% {
+      stroke-width: 3;
+      
+    }
+  }
+
+  .ia-sw1 {
+    animation: strokeWidth1 2s linear infinite;
+    /* stroke-dasharray: 1 1; */
+  }
+
+
+  
+@keyframes strokeWidth2 {
+    0%{
+      stroke-width: 1;
+    }
+    60% {
+      stroke-width: 2;
+      
+    }
+  }
+
+  .ia-sw2 {
+    animation: strokeWidth2 2s linear infinite;
+    /* stroke-dasharray: 1 1; */
+  }
+
+
+
+  @keyframes strokeWidth3 {
+    0%{
+      stroke-width: 1;
+      stroke-opacity: 0.3;
+    }
+    60% {
+      stroke-width: 2;
+      stroke-opacity: 1;
+      
+    }
+  }
+
+  .ia-sw3 {
+    animation: strokeWidth3 2s linear infinite;
+    /* stroke-dasharray: 1 1; */
+  }
+
+
+
+  @keyframes strokeWidth4 {
+    0%{
+      stroke-width: 1;
+    }
+    60% {
+      stroke-width: 3;
+      
+    }
+  }
+
+  .ia-sw4 {
+    animation: strokeWidth4 1s linear infinite;
+    /* stroke-dasharray: 1 1; */
+  }
+
+
+  @keyframes strokeWidth5 {
+    0%,100%{
+      stroke-width: 1;
+    }
+    40% {
+      stroke-width: 3;
+      
+    }
+  }
+
+  .ia-sw5 {
+    animation: strokeWidth5 2s ease-in-out infinite;
+
+  }
+
+

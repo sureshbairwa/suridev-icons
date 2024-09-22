@@ -1,0 +1,141 @@
+
+@keyframes strokeColor {
+  0%,100% {
+    stroke: hsl(305, 83%, 20%); 
+  }
+  50% {
+    stroke: #7144e4; 
+  }
+  
+}
+.ia-sc {
+  animation: strokeColor 2s linear infinite;
+}
+
+
+@keyframes strokeColor1 {
+    0% {
+      stroke: #ff00ea; 
+    }
+    50% {
+      stroke: rgb(43, 205, 53); 
+    }
+    100% {
+      stroke: #ff00ea; 
+    }
+  }
+  .ia-sc1 {
+    animation: strokeColor1 2s infinite;
+  }
+
+
+  @keyframes strokeColor2 {
+    0% {
+      stroke: #2fb7cb; 
+    }
+    50% {
+      stroke: #bdda19; 
+    }
+    75% {
+      stroke: #d7210c; 
+    }
+
+    100% {
+      stroke: #2fb7cb; 
+    }
+  }
+  
+  .ia-sc2 {
+    animation: strokeColor2 4s infinite;
+  }
+
+
+  
+@keyframes strokeColor3 {
+    0% {
+      stroke: purple;
+      stroke-dashoffset: 100;
+      
+    }
+    50% {
+      stroke: rgb(232, 11, 240); 
+    }
+    100% {
+      stroke: #7bfc09; 
+      stroke-dashoffset: 0;
+      
+    }
+  }
+  .ia-sc3 {
+    animation: strokeColor3 2s infinite;
+    stroke-dasharray: 100;
+  }
+
+
+    
+@keyframes strokeColor4 {
+    0% {
+      stroke: rgb(12, 37, 231);
+      stroke-dashoffset: 20;
+      stroke-width: 1;
+      stroke-dasharray: 7 0.5;
+      
+    }
+    
+    50% {
+      stroke: #b05811; 
+      stroke-dashoffset: 10;
+      stroke-width: 3;
+      stroke-dasharray: 7 0.5;
+
+      
+    }
+    100% {
+        stroke: #b05811; 
+        stroke-dashoffset: 10;
+        stroke-width: 1;
+        stroke-dasharray: 5 0.1;
+        
+      }
+  }
+  .ia-sc4 {
+    animation: strokeColor4 2s infinite;
+    
+  }
+
+
+    
+@keyframes strokeColor5 {
+    0% {
+        stroke: rgb(233, 12, 237);
+        stroke-dashoffset: 20;
+        stroke-width: 2;
+        stroke-dasharray: 7 0.5;
+        stop-opacity: 0.3;
+        
+      }
+      
+      50% {
+        stroke: #620567; 
+        stroke-dashoffset: 10;
+        stroke-width: 3;
+        stroke-dasharray: 7 0.5;
+        stroke-opacity: 1;
+  
+        
+      }
+      100% {
+          stroke: #32fa40; 
+          stroke-dashoffset: 10;
+          stroke-width: 2;
+          stroke-dasharray: 5 0.1;
+          stroke-opacity: 0.3;
+          
+        }
+  }
+  .ia-sc5 {
+    animation: strokeColor5 2s infinite;
+    stroke-dasharray: 100;
+  }
+
+

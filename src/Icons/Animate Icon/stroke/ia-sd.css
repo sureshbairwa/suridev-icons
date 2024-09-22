@@ -1,0 +1,202 @@
+
+
+ 
+  .ia-sd {
+    stroke-dasharray: 5 1 ;
+    animation: ia-sd1 5s linear  infinite;
+  }
+  
+  @keyframes ia-sd1 {
+    
+    0%{
+      stroke-dashoffset: 10;
+    }
+  }
+
+    
+  .ia-sd1 {
+    stroke-dasharray: 100 ;
+    animation: ia-sd1 2s linear  infinite;
+  }
+  
+  @keyframes ia-sd1 {
+    
+    0%{
+      stroke-dashoffset: 100;
+    }
+  }
+
+  
+  .ia-sd2 {
+    stroke-dasharray: 10 ;
+    animation: ia-sd2 2s linear infinite;
+  }
+  
+  @keyframes ia-sd2 {
+    0% {
+      stroke-dashoffset: 50;
+    }
+    50% {
+      stroke-dashoffset: 0;
+
+    }
+    100%{
+      stroke-dashoffset: 100;
+    }
+  }
+
+
+  
+  .ia-sd3 {
+    stroke-dasharray: 1 ;
+    animation: ia-sd3 2s linear infinite;
+  }
+  
+  @keyframes ia-sd3 {
+    0% {
+      stroke-dashoffset: 20;
+    }
+    50% {
+      stroke-dashoffset: 0;
+
+    }
+    100%{
+      stroke-dashoffset: 20;
+    }
+  }
+
+  .ia-sd4 {
+    stroke-dasharray: 1 ;
+    animation: ia-sd4 2s linear infinite;
+  }
+  
+  @keyframes ia-sd4 {
+    
+    100%{
+      stroke-dashoffset: 20;
+    }
+  }
+
+
+
+  .ia-sd5 {
+    stroke-dasharray: 3 ;
+    animation: ia-sd5 2s linear infinite;
+  }
+  
+  @keyframes ia-sd5 {
+    
+    100%{
+      stroke-dashoffset: 20;
+    }
+  }
+
+
+  .ia-sd6 {
+    stroke-dasharray: 20 1;
+    animation: ia-sd6 2s linear infinite;
+  }
+  
+  @keyframes ia-sd6 {
+    0%, 100% {
+      stroke-dashoffset: 50;
+    }
+    50% {
+      stroke-dashoffset: 0;
+      stroke-dasharray: 50;
+    }
+  }
+
+
+
+  
+  
+  .ia-sd7 {
+    stroke-dasharray: 100 ;
+    animation: ia-sd7 2s linear infinite;
+  }
+  
+  @keyframes ia-sd7 {
+    
+    0%{
+      stroke-dashoffset: 100;
+    }
+  }
+
+
+  .ia-sd8 {
+    stroke-dasharray: 1 0.3 ;
+    animation: ia-sd8 2s linear infinite;
+  }
+  
+  @keyframes ia-sd8 {
+    
+    0%{
+      
+      stroke-dashoffset: 30;
+
+    }
+    50%{
+
+      stroke-dashoffset: 60;
+
+    }
+    100%{
+
+      stroke-dashoffset: 90;
+
+
+    }
+  }
+
+
+  
+  .ia-sd9 {
+    stroke-dasharray: 10 1 ;
+    animation: ia-sd9 2s linear infinite;
+  }
+  
+  @keyframes ia-sd9 {
+    
+    0%{
+      
+      stroke-dashoffset: 30;
+
+    }
+    50%{
+
+      stroke-dashoffset: 60;
+
+    }
+    100%{
+
+      stroke-dashoffset: 90;
+
+
+    }
+  }
+
+
+  
+  .ia-sd10 {
+    stroke-dasharray: 30;
+    animation: ia-sd10 3s linear infinite;
+  }
+  
+  @keyframes ia-sd10 {
+    
+    0%,75%{
+      
+      stroke-dashoffset: 0;
+
+    }
+    25%,100%{
+     
+      stroke-dashoffset: 50;
+
+    }
+    
+  }
+
+
+
